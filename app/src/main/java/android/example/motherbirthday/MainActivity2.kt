@@ -14,6 +14,7 @@ class MainActivity2 : AppCompatActivity() {
         val projectUrl = "https://drive.google.com/file/d/19bWjKgc0NIEA8gTyJ58Q7_y0q1C7yNZ_/view?usp=sharing"
         val letterUrl = "https://drive.google.com/file/d/1NUQbL1_wYqFESjpTtrtq-L3OmmLFDyMo/view?usp=sharing"
 
+        //aaaa
         video_play_iv.setOnClickListener(View.OnClickListener {
             val intent = Intent(Intent.ACTION_VIEW)
             intent.data = Uri.parse(projectUrl)
